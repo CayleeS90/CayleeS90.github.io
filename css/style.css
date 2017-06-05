@@ -1,0 +1,132 @@
+  .navbar {
+    color: #E3E5EC;
+    margin-bottom: -0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .navbar img {
+    height: 60px;
+    margin: -20px 5px;
+  }
+
+  .cbp-af-header-shrink {
+    padding-top: 1px;
+    padding-bottom: 0px;
+    opacity: .9;
+  }
+
+  .navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+  }
+
+  .fill-screen {
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .fill-screen img {
+    width: 100%;
+  }
+
+  .down-button {
+    position: absolute;
+    bottom: 65px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .down-button i {
+    color: rgba(80, 85, 108, 0.66);
+  }
+
+  @media only screen and (min-width: 700px) {
+    .fill-screen {
+      padding-top: 35px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .form-group {
+      padding-right: 15%;
+    }
+  }
+
+  .fill-screen img {
+    max-width: 800px;
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+
+  .container-color {
+    background-color: rgba(80, 85, 108, 0.66);
+    color: #E3E5EC;
+    margin: auto;
+    margin-bottom: 8px;
+    padding: 0 30px;
+    width: 97%;
+    max-width: 800px;
+  }
+
+  .img-responsive {
+    margin: auto;
+  }
+
+  .about-img {
+    max-height: 200px;
+    padding: 10px;
+  }
+
+  .img-thumbnail {
+    max-height: 300px;
+    margin: 10px;
+  }
+
+  .connect {
+    padding-bottom: 30px;
+  }
+
+  body {
+    background-color: lightgrey;
+    padding-top: 70px;
+    position: relative;
+  }
+
+  section {
+    padding-bottom: 10px;
+  }
+
+  h2, h3 {
+    padding-bottom: 30px;
+  }
+p {
+  padding-bottom: 30px;
+}
+  ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+  }
+
+  li {
+    display: inline;
+  }
+
+  li img {
+    height: 50px;
+  }
+
+  li address {
+    display: inline;
+  }
+
+  footer {
+    background: #333;
+    color: #ddd;
+    padding: 30px;
+  }

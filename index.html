@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="10">
+  <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar" href="#home"><img src="https://github.com/CayleeS90/CorePortfolioSite/blob/master/CorePortfolioWebsite/CorePortfolioWebsite/wwwroot/images/logobackblack%20(2).png?raw=true" alt="Caylee Stewart Logo" />Caylee Stewart</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!-- end container -->
+  </header>
+  <div class="container-fluid">
+    <section id="home" class="row">
+      <div class="fill-screen">
+        <img class="img-responsive" src="https://github.com/CayleeS90/CorePortfolioSite/blob/master/CorePortfolioWebsite/CorePortfolioWebsite/wwwroot/images/logonobackclean.png?raw=true" alt="Caylee Stewart Logo" />
+        <div class="down-button">
+          <a class="btn" href="#about">
+            <i class="fa fa-arrow-circle-down fa-4x"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container-color container-fluid">
+
+
+    <section id="about" class="row">
+      <h2>Bit About Me</h2>
+      <h3>I'm a Front End Developer from St. Petersburg, Florida.</h3>
+      <p>
+        I enjoy designing websites with a minimalist style. I'm a firm believer in pushing myself to deepen my knowledge while experimenting with new ideas. In my free time I enjoy reading, gaming, volleyball, and when I get a chance to leave the coast, snowboarding.
+      </p>
+      <div>
+        <img class="about-img img-responsive" alt="Me on Purgatory Mountain" src="https://github.com/CayleeS90/CorePortfolioSite/blob/master/CorePortfolioWebsite/CorePortfolioWebsite/wwwroot/images/meColorado.jpg?raw=true" />
+      </div>
+    </section>
+    <section class="row">
+      <h2 class="sub-heading"> My Experience</h2>
+      <p>
+        I am equal parts Front End Designer and Coder. Below is a chart showing a rough percentage of the time I have spent studying or practicing with a few specific technologies.
+      </p>
+      <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    </section>
+    <section id="portfolio" class="row">
+      <h2>Portfolio</h2>
+      <h3>Here's a few projects I've been working on.</h3>
+      <div>
+        <figure>
+          <a href="https://codepen.io/CayleeStewart/full/aWRrav/" target="_blank"><img class="img-thumbnail portfolio-img" src="https://github.com/CayleeS90/Images/blob/master/Tribute%20page.png?raw=true​" alt="Codepen Project"></a>
+          <figcaption><h4>Tribute Page</h4></figcaption>
+        </figure>
+        <figure>
+          <a href="http://cayleecodes.com/cayleestewart/" target="_blank"><img class="img-thumbnail portfolio-img" src="https://github.com/CayleeS90/Images/blob/master/screencapture-cayleecodes-cayleestewart-1495827937503.png?raw=true" alt="Wordpress Site"></a>
+          <figcaption><h4>WordPress Site</h4></figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.freecodecamp.com/caylees90" target="_blank"><img class="img-thumbnail portfolio-img" src="https://github.com/CayleeS90/Images/blob/master/screencapture-freecodecamp-caylees90-1496430927688.png?raw=true" alt="freeCodeCamp Projects"></a>
+          <figcaption><h4>freeCodeCamp Profile</h4></figcaption>
+        </figure>
+        <a href="#" target="_blank"><img src=""> </a>
+        <a href="#" target="_blank"><img src=""> </a>
+      </div>
+    </section>
+
+    <section id="contact" class="row">
+      <h2>Need to Contact Me?</h2>
+      <form class="form-horizontal" role="form" method="post" action="index.php">
+        <div class="form-group">
+          <label for="name" class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email" class="col-sm-2 control-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message" class="col-sm-2 control-label">Message</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" rows="4" name="message"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10 col-sm-offset-2">
+            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10 col-sm-offset-2">
+            <! Will be used to display an alert to the user>
+          </div>
+        </div>
+      </form>
+      <div class="connect">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/caycay90/?hl=en" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-128.png" title="Instagram" /> </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/caylee-stewart-454416137/" target="_blank"> <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-128.png" title="Linkedin" /> </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/caylee.stewart" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/facebook-128.png" title="Facebook" /> </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="https://github.com/CayleeS90" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/github-128.png" Title='Github' /> </a>
+          </li>
+          <li> <address><a href="mailto:caylee.stewart@gmail.com"> <img src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/mail-128.png" title="Email"/> </a></address>
+          </li>
+          <li>
+            <a href="http://cayleecodes.com/cayleestewart/" target="_blank"> <img height="130px" src="https://github.com/CayleeS90/CorePortfolioSite/blob/master/CorePortfolioWebsite/CorePortfolioWebsite/wwwroot/images/logobackblack%20(2).png?raw=true" title="Blog Page" /> </a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+  </div>
+  </div>
+  <footer class="container-fluid">
+    &copy;
+    <script>
+      new Date().getFullYear() > 2010 && document.write(+new Date().getFullYear());
+    </script>, Caylee Stewart.
+  </footer>
+</body>
+  <script src='https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
+<script src='https://rawgit.com/codrops/AnimatedHeader/master/js/classie.js'></script>
+<script src='https://rawgit.com/codrops/AnimatedHeader/master/js/cbpAnimatedHeader.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
