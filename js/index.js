@@ -24,7 +24,7 @@ $("body").scrollspy({
   });
 });
 
-// Exp donut chart 
+// Exp doughnut chart 
 window.onload = function () {
 	var chart = new CanvasJS.Chart("chartContainer",
 	{    
