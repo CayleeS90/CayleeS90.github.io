@@ -11,8 +11,7 @@ $("body").scrollspy({
   });
 });
 */
-
-  //smooth scrolling
+ //smooth scrolling
   $("nav a, .down-button a").bind("click", function() {
     $("html, body").stop().animate(
       {
@@ -25,6 +24,7 @@ $("body").scrollspy({
   });
 });
 
+// Exp donut chart 
 window.onload = function () {
 	var chart = new CanvasJS.Chart("chartContainer",
 	{    
